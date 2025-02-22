@@ -66,8 +66,7 @@ df = pd.read_csv(url)
 df = pd.read_csv(url)
 df.head()
 
-from google.colab import drive
-drive.mount('/content/drive')
+
 
 """##***Expolratory Data Analysis (EDA)***"""
 
