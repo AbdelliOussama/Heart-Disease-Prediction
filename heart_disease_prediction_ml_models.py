@@ -61,8 +61,9 @@ warnings.filterwarnings('ignore')
 """## ***Load the Dataset***"""
 
 # Load dataset
-
-df = pd.read_csv('/content/drive/MyDrive/heart_disease_uci.csv')
+url = 'url = 'https://raw.githubusercontent.com/your-username/your-repo/main/heart_disease_uci.csv'
+df = pd.read_csv(url)'
+df = pd.read_csv(url)
 df.head()
 
 from google.colab import drive
