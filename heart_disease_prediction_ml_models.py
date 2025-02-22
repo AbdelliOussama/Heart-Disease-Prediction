@@ -14,7 +14,6 @@ Original file is located at
 
 # install catboost library
 
-pip install "dask[dataframe]"
 
 # to handle data
 import pandas as pd
