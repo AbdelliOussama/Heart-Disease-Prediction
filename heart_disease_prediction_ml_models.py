@@ -61,7 +61,9 @@ warnings.filterwarnings('ignore')
 """## ***Load the Dataset***"""
 
 # Load dataset
-url = 'url = 'https://raw.githubusercontent.com/AbdelliOussama/Heart-Disease-Prediction/refs/heads/main/heart_disease_uci.csv'
+url = 'https://raw.githubusercontent.com/AbdelliOussama/Heart-Disease-Prediction/main/heart_disease_uci.csv'
+df = pd.read_csv(url)
+
 df = pd.read_csv(url)
 df.head()
 
