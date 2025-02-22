@@ -13,7 +13,6 @@ Original file is located at
 """
 
 # install catboost library
-!pip install catboost -q
 
 pip install "dask[dataframe]"
 
