@@ -829,6 +829,4 @@ plt.show()
 ## ***If you like `upvote` it and `share`.***
 """
 
-!jupyter nbconvert --to script heart-disease-prediction-ml-models.ipynb
 
-!ls -lh
