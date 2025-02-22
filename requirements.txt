@@ -7,3 +7,5 @@ catboost
 pandas
 scikit-learn
 streamlit
+dask[dataframe]
+
